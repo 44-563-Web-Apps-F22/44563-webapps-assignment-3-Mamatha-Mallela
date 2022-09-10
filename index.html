@@ -44,7 +44,7 @@
             The second column is important location to visit in the city.
             The third column is the amount of time to spend visiting the important location.</p>
 
-        <table border = "1">
+        <table border="1">
             <tr>
                 <th> CITY NAME </th>
                 <th> IMPORTANT LOCATIONS TO VISIT </th>
@@ -76,6 +76,24 @@
                 <td> 4 HRS </td>
             </tr>
         </table>
+    </div>
+    <hr>
+    <div>
+        <h3>PHP Code</h3>
+        <blockquote
+            cite="https://stackoverflow.com/questions/2790899/how-to-check-if-a-string-starts-with-a-specified-string">
+            Test if String Starts With Certain Characters in PHP </blockquote>
+        <pre>
+            &lt;?php  
+            function startsWith($string, $startString) { 
+            $len = strlen($startString); 
+            return (substr($string, 0, $len) === $startString); 
+            } 
+            // usage
+            echo startsWith("cat", "c"); // true
+            echo startsWith("dog", "x"); // false
+            ?&gt;
+        </pre>
     </div>
 </body>
 
